@@ -1,0 +1,156 @@
+.nav-link{
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#0d6efd !important;
+}
+
+.navbar-brand{
+    letter-spacing:1px;
+}
+body{
+    background:#f8f9fa;
+}
+
+section{
+    min-height:80vh;
+}
+.category-card{
+    transition:0.3s;
+    cursor:pointer;
+    border-radius:15px;
+}
+
+.category-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15)!important;
+}
+
+.category-card svg{
+    transition:0.3s;
+}
+
+.category-card:hover svg{
+    transform:scale(1.2);
+}
+.product-card{
+    transition:0.3s;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15)!important;
+}
+
+.product-card img{
+    transition:.4s;
+}
+
+.product-card:hover img{
+    transform:scale(1.05);
+}
+.why-card{
+    transition:0.3s;
+    border-radius:15px;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.12)!important;
+}
+
+.why-card svg{
+    transition:0.3s;
+}
+
+.why-card:hover svg{
+    transform:rotate(10deg) scale(1.2);
+}
+.footer-link{
+    color:#adb5bd;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-link:hover{
+    color:white;
+}
+
+footer svg{
+    cursor:pointer;
+    transition:.3s;
+}
+
+footer svg:hover{
+    color:#0d6efd;
+    transform:translateY(-5px);
+}
+.form-control,
+.form-select{
+
+    border-radius:10px;
+
+}
+
+.input-group-text{
+
+    border-radius:10px 0 0 10px;
+
+}
+.card {
+  border-radius: 20px;
+}
+
+.input-group-text {
+  background: white;
+}
+
+button {
+  border-radius: 10px;
+}
+.product-card{
+transition:.35s;
+border:none;
+border-radius:18px;
+overflow:hidden;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card-img-top{
+height:250px;
+object-fit:cover;
+}
+
+.btn{
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.04);
+}
+.product-image-container{
+    width:100%;
+    height:260px;
+    overflow:hidden;
+    background:#f8f9fa;
+}
+
+.card-img-top{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:0.4s;
+}
+
+.product-card:hover .card-img-top{
+    transform:scale(1.08);
+}
