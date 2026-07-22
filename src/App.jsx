@@ -24,7 +24,6 @@ function App() {
         <Route path="/product/:id" element={<ProductDetails />}/>
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
     </BrowserRouter>
   );
